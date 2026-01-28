@@ -1,27 +1,15 @@
 {
-  "vehicle_info": {
-    "vin": "VALEO-XP-2025",
-    "model": "AutoCare Demo Car",
-    "status": "Warning"
+  "vehicle_id": "CAR-123456",
+  "odometer_km": 156000,
+  "fuel_level": 45,
+  "engine_temp": 90,
+  "rpm": 850,
+  "speed": 0,
+  "last_maintenance": {
+    "oil_change_km": 150000,
+    "tires_km": 120000,
+    "brakes_km": 140000,
+    "air_filter_km": 145000
   },
-  "live_data": {
-    "rpm": 3200,
-    "speed": 120,
-    "temp": 98,
-    "battery": 12.4
-  },
-  "fault_codes": [
-    {
-      "code": "P0300",
-      "system": "Engine",
-      "description": "Random/Multiple Cylinder Misfire Detected",
-      "severity": "High"
-    },
-    {
-      "code": "P0171",
-      "system": "Fuel",
-      "description": "System Too Lean (Bank 1)",
-      "severity": "Medium"
-    }
-  ]
+  "dtc_codes": []
 }
